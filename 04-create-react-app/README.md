@@ -13,6 +13,25 @@ starter kit.
 
 ## npx
 
+node package executer
+
+ships with node.js
+
+
+```
+> npm install <some-package>
+```
+
+```
+    node_modules
+      - .bin
+```
+
+```
+npx <some-command> [args for the command]
+```
+
+some packages add cli commands
 
 
 
