@@ -28,8 +28,8 @@ In the folder of the exercise (`ex`) run the following commands in the `terminal
 
 ## Exercise modules
 
-- In this exercise you will have to create 2 files: `a.ts`, `b.ts`
-- file `a.ts` exports a function `printObj` which gets an `Object` as an argument.  
+- In this exercise you will have to create 2 files: `a.js`, `b.js`
+- file `a.js` exports a function `printObj` which gets an `Object` as an argument.  
 That `Object` contains keys of type `string` and value of type `string`  
 The `printObj` will iterate on the keys of the `Object` and print to the console all the keys and the values in the `Object`
 - file `b.ts` will import the function created in file `a.ts` and call the `printObj` function with some object to print.
@@ -53,4 +53,6 @@ using `Promise.prototype.then` use the `axios.get` to send a request to the serv
 ### async-await
 
 using `async-await` create an `async function` and use `await axios.get('...')` to send the request to the server and print the `response.data` to the console.
+
+
 

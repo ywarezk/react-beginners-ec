@@ -1,0 +1,13 @@
+{
+  "name": "ex",
+  "version": "1.0.0",
+  "description": "Before starting to work on this exercise, follow the these steps:",
+  "main": "b.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
