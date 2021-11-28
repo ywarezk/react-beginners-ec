@@ -1,4 +1,29 @@
-# Javascript and Typescript
+# Javascript
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 - hello world
 - variables

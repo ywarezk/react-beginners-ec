@@ -1,0 +1,1 @@
+import MyPerson, {Hello, message} from './06-modules';

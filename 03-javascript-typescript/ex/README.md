@@ -15,6 +15,17 @@ In the folder of the exercise (`ex`) run the following commands in the `terminal
 - Using `Array.prototype.map` create another array of numbers, which contains the string length of every word in the words array.
 - Iterate on the number array and print to the console each item in that array
 
+## Exercise Destructuring
+
+- create a function called `useState`
+- that function should return an array containing 2 elements of your choice
+- call that function and using destructuring extract those 2 elements to variables
+
+## Exercise Destructuring2
+
+- create a function which gets an object in its arguments.  
+- using destructuing extract the elements from the object in the args to variables and print them.
+
 ## Exercise modules
 
 - In this exercise you will have to create 2 files: `a.ts`, `b.ts`
