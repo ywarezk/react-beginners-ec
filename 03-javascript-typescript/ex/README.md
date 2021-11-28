@@ -41,10 +41,12 @@ you will send a simple `GET` request to the url: `https://nztodo.herokuapp.com/a
 you will send the request using the library `axios` which you will need to install using the command:
 
 ```bash
+> npm init --yes
 > npm install axios
 ```
 
 ### Promise
+
 
 using `Promise.prototype.then` use the `axios.get` to send a request to the server url: `https://nztodo.herokuapp.com/api/tasks/?format=json`, and print the `response.data` you got from the server to the console.
 
