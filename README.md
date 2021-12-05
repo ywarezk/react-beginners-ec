@@ -18,3 +18,7 @@
 
 8. Routing
 
+
+## youtube channel
+
+https://youtube.com/playlist?list=PLnHa2cF4cNDtfkYKO6v069GUPYrJtijwc
