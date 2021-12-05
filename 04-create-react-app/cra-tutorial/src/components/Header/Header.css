@@ -1,0 +1,17 @@
+
+
+.logo {
+    height: 50px;
+}
+
+.MuiToolbar-root {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* <TextField className="daniel" /> */
+/* <TextField  /> */
+.my-header button.danger {
+    /* override danger */
+}

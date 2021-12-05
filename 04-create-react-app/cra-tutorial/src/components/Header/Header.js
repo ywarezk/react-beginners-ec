@@ -5,7 +5,7 @@ import './Header.css';
 
 export function Header() {
     return (
-        <AppBar position="static">
+        <AppBar position="static" className="my-header">
             <Toolbar>
                 <img className="logo" src={logo} />
                 <h1>
