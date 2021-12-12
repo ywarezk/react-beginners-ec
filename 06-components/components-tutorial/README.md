@@ -17,3 +17,15 @@ export function Hello() {
 
 passing infromation from the parent to the child.  
 whenever props change the component function will be called again and be updated
+
+## State
+
+update the component from within the component
+
+### useState
+
+defines special variables that can transition us form one state to the other
+
+### UI not REact
+
+View 
