@@ -57,3 +57,46 @@ setUser(withServerObject);
 - fetch
 - axios
 - `react-query`
+
+## Authentication
+
+Authentication / Authorization
+
+authentication - who am i
+authorization - what can I do
+
+- do once
+- do every request
+
+
+- JWT
+
+
+           Login Request
+client ------------------> Server
+            token-JWT
+client <----------------- Server
+             
+
+    Authentication: Bearer <token>
+client -------------------> Server
+
+##  EX
+
+`TodoList` grab the tasks from the server:
+
+```
+https://nztodo.herokuapp.com/api/tasks/?format=json
+```
+
+You will grab the tasks when the component is initiated
+
+```js
+useEffect(() => {
+    ... call the server
+    ... save in state
+}, [])
+```
+
+
+
