@@ -26,3 +26,18 @@
 
 - send hard code data: yariv@nerdeez.com, 12345678
 - grab the user input from the form
+
+## Mobile
+
+react-native
+
+your write your code in javascript
+
+build native application
+
+app -> node.js -> javascript
+
+
+
+react + react-dom -> web application
+react + react-native -> mobile app
