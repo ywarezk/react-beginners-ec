@@ -14,8 +14,11 @@
 
 import { useEffect, useState } from 'react';
 
-export function Hello() {
+export function Hello({
+    name = 'Yariv'
+}) {
     const [initMe, setInitMe] = useState(false);
+    const [random, setRandom] = useState(Math.random());
 
     // BAD REACT CODE!!!!
     // when drawing you cannot do change
@@ -26,10 +29,40 @@ export function Hello() {
 
     // this function will run once
     // after first render
+    /*
     useEffect(() => {
         // you can place here server calls that are called once
         console.log('this');
         setInitMe(true)
+    }, []);
+    */
+
+    /**
+     * run some logic on update
+     */
+    useEffect(() => {
+        console.log('use effect is running')
+    }, [
+        initMe,
+        random,
+        name
+    ])
+
+    /**
+     * can be used for cleanup
+     */
+    useEffect(() => {
+        // this will be called on init
+        const intervalId = setInterval(() => {
+            console.log('this needs cleaning up...')
+        }, 1000)
+
+        return function() {
+            // this will be called on destroy
+            console.log('cleanup!!!');
+            clearInterval(intervalId)
+        }
+
     }, [])
 
     return (
