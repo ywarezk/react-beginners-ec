@@ -29,3 +29,31 @@ defines special variables that can transition us form one state to the other
 ### UI not REact
 
 View 
+
+## EX login from server
+
+on handle submit in the login  
+send a `POST` request to the following url:
+
+```
+https://academeez-login-ex.herokuapp.com/api/users/login
+```
+
+in the request body:
+
+```
+{
+    email: 'yariv@nerdeez.com',
+    password: '12345678'
+}
+```
+
+the server should return a user object.  
+
+```js
+setUser(withServerObject);
+```
+
+- fetch
+- axios
+- `react-query`
