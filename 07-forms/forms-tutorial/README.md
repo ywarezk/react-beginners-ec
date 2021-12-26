@@ -50,6 +50,7 @@ function useLogin() {
 
 ```
 function Login() {
+    // handleLoginSubmit(email, password)
     const [ user, handleLoginSubmit ] = useLogin();
     const handleSubmit = () => {
 

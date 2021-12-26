@@ -6,6 +6,7 @@ export function Hello() {
 
 export const message = 'hello world';
 
+// can be at most once
 export default class Person {
     
 }
