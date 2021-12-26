@@ -41,3 +41,29 @@ app -> node.js -> javascript
 
 react + react-dom -> web application
 react + react-native -> mobile app
+
+## EX.
+
+function useLogin() {
+    useState()
+}
+
+```
+function Login() {
+    const handleSubmit = () => {
+
+
+        fetch(...)
+    }
+}
+
+function useTodo() {
+    useState()
+}
+
+function Todo() {
+    useEffect(() => {
+        fetch(...)
+    }, [])
+}
+```
