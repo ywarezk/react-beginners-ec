@@ -50,6 +50,7 @@ function useLogin() {
 
 ```
 function Login() {
+    const [ user, handleLoginSubmit ] = useLogin();
     const handleSubmit = () => {
 
 
@@ -58,10 +59,13 @@ function Login() {
 }
 
 function useTodo() {
+    
     useState()
 }
 
 function Todo() {
+    // the api should be this
+    const tasks = useTodo()
     useEffect(() => {
         fetch(...)
     }, [])
