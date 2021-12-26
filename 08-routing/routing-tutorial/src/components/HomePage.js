@@ -1,4 +1,22 @@
 
+// /layout1/layout2/layout3/todo/list
+
+// navigate('/about');
+
+// /about
+
+// /layout/about
+
+/**
+ * 
+ * 
+  
+<Route path="/about" element={ <AboutPage /> } />
+<Route path="/about" element={ <AboutPAge /> } />
+
+
+ */
+
 import { useNavigate } from 'react-router-dom';
 
 export function HomePage() {

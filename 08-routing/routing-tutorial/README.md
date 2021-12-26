@@ -63,4 +63,5 @@ after user logs in you need to direct him to the todo page where the todo list i
 
 /todo => TodoList
 
+- If finished
 

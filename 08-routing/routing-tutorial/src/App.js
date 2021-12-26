@@ -6,8 +6,12 @@ import { HomePage } from './components/HomePage';
 import { AboutPage } from './components/AboutPage';
 import { Error404Page } from './components/Error404Page';
 import { QuestionsPage } from './components/QuestionsPage';
+import { YarivPage } from './components/YarivPAge';
+import { DaniellePage } from './components/DaniellePage';
 
 function App() {
+    const handle = () => {}
+
     return (
         <div className="App">
             <nav>
@@ -34,7 +38,7 @@ function App() {
             {/*  aboutpage => /about */}
             {/*  ** => 404 */}
             <Routes>
-                <Route path="/" element={<HomePage />} />
+                <Route path="/" element={<HomePage  />} />
                 <Route path="/about" element={ <AboutPage /> } />
                 <Route path="/questions" element={ <QuestionsPage /> } />
                 <Route path="/questions/:questionNumber" element={ <QuestionsPage /> } />
@@ -42,6 +46,9 @@ function App() {
                 {/* /settings/user */}
                 {/* settings/dashboard */}
                 <Route path="/settings" element={ <QuestionsPage /> } />
+
+                <Route path="/yariv" element={ <YarivPage /> }  />
+                <Route path="/danielle" element={ <DaniellePage /> } />
 
                 <Route path="/*" element={<Error404Page />} />
             </Routes>
