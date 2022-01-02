@@ -1,10 +1,12 @@
 import { store } from '../redux/store';
 import { userSlice } from '../redux/user.slice';
+import { useDispatch } from 'react-redux';
 
 export function Login() {
+    const dispatch = useDispatch();
 
     const handleLogin = () => {
-        store.dispatch(userSlice.actions.setUser({firstName: 'Yariv', lastName: 'Katz'}));
+        dispatch(userSlice.actions.setUser({firstName: 'Yariv', lastName: 'Katz'}));
     }
 
     return (

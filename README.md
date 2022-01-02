@@ -33,6 +33,8 @@ https://youtube.com/playlist?list=PLnHa2cF4cNDtfkYKO6v069GUPYrJtijwc
 - formik - used for handling forms - https://formik.org/
 - react-router - used for routing - https://reactrouter.com/
 - redux - share data between components - https://redux.js.org/
+  - redux saga
+  - redux epics
 - redux dev tools browser extension
 - RTL - react testing library - used for testing tools - https://testing-library.com/docs/react-testing-library/intro/
 - graphql - apollo client

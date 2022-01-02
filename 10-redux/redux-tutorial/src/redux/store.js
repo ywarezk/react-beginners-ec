@@ -3,6 +3,7 @@
  */
 
 import { configureStore } from '@reduxjs/toolkit';
+import { todoSlice } from './todo.slice';
 import { userSlice } from './user.slice'
 
 // store holds the state
@@ -25,6 +26,8 @@ export const store = configureStore({
     // }
 
     reducer: {
-        user: userSlice.reducer,        
+        user: userSlice.reducer, 
+        todo: todoSlice.reducer       
+        // todo: 
     }
 })

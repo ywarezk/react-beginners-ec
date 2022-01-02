@@ -1,15 +1,14 @@
 import { useSelector } from 'react-redux';
+import { firstNameSelector } from '../redux/user.slice';
 
 export function Header() {
 
-    const user = useSelector((state) => {
-        return state.user;
-    })
+    const firstName = useSelector(firstNameSelector)
 
     return (
         <header>
             <h1>
-                Hello { user?.firstName } { user?.lastName }
+                Hello { firstName }
             </h1>
         </header>
     )
