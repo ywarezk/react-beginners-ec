@@ -9,7 +9,7 @@ export function Header() {
     return (
         <header>
             <h1>
-                Hello { user.firstName } { user.lastName }
+                Hello { user?.firstName } { user?.lastName }
             </h1>
         </header>
     )

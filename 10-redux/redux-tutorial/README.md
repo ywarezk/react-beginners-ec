@@ -78,3 +78,60 @@ tools, best practices, shortcuts for working with redux
 
 ## Create the store
 
+
+## changing the state
+
+1.  state immutable
+2. store - no access to state
+
+```
+store.dispatch // this function will change the state
+```
+
+```
+store.dispatch(action = { 
+    type: 'unique string to identify the action',
+    payload: {firstName: 'some user'} 
+})
+```
+
+## Action
+
+```
+{
+    type: 
+    payload
+}
+```
+
+store.dispatch(action)
+
+reducer(state, action) => nextState
+
+
+
+## how do we arrange the state
+
+```
+state = {
+    user: { // userReducer
+
+    },
+    todo: { // todoReducer
+
+    },
+    account: { // accountReducer
+        email: '',
+        password: '',
+        ...
+    }
+}
+```
+
+1. split state
+2. split reducers
+3. actions and reducer together
+
+## slice
+
+reducer and actions combined together
